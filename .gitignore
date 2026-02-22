@@ -1,0 +1,25 @@
+# Build folders
+backend/target/
+frontend/dist/
+frontend/node_modules/
+.DS_Store
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# Environment Variables
+.env
+.env.local
+
+# Vite
+frontend/.vite/
