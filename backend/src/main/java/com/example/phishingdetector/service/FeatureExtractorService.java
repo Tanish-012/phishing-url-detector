@@ -39,7 +39,7 @@ public class FeatureExtractorService {
             // Attempt to fetch content with a brief timeout
             Document doc = Jsoup.connect(urlStr)
                     .userAgent("Mozilla/5.0")
-                    .timeout(3000)
+                    .timeout(500)
                     .get();
 
             URI baseUri = new URI(urlStr);
